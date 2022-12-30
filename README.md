@@ -67,7 +67,7 @@ P3- Docker Networks
 ###Network Plugin: This network type allows you to use third-party network plugins to create custom network configurations for your containers. This can be useful if you want to use a particular networking protocol or if you need to connect your containers to a specific network infrastructure.~                                                 
 
 
-P4-Creat Bridge Network between two containers and ping by NAME
+P4-Create Bridge Network between two containers and ping by NAME
 
 ```bash
 docker network create bridge-network
