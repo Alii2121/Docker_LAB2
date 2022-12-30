@@ -53,7 +53,7 @@ ENTRYPOINT ["nginx","-g","daemon off;"]
 
 P3- Docker Networks
 
-##
+
 ###Bridge: This is the default network type. When you create a new container, it is automatically connected to a bridge network. The bridge network allows containers to communicate with each other, as well as with the host machine and external networks.
 
 ###Host: This network type removes the network isolation between the container and the host machine. Containers connected to the host network have the same network namespace as the host, and can directly access all network interfaces and resources on the host.
@@ -65,6 +65,8 @@ P3- Docker Networks
 ###Macvlan: This network type allows you to assign a MAC address to a container and connect it directly to your physical network. This allows the container to have a unique IP address on the network, and enables it to communicate directly with other devices on the network.
 
 ###Network Plugin: This network type allows you to use third-party network plugins to create custom network configurations for your containers. This can be useful if you want to use a particular networking protocol or if you need to connect your containers to a specific network infrastructure.~                                                 
+
+
 P4-Creat Bridge Network between two containers and ping by NAME
 
 ```bash
