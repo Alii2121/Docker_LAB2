@@ -64,7 +64,7 @@ P3- Docker Networks
 
 ###Macvlan: This network type allows you to assign a MAC address to a container and connect it directly to your physical network. This allows the container to have a unique IP address on the network, and enables it to communicate directly with other devices on the network.
 
-###Network Plugin: This network type allows you to use third-party network plugins to create custom network configurations for your containers. This can be useful if you want to use a particular networking protocol or if you need to connect your containers to a specific network infrastructure.~                                                 
+###Network Plugin: This network type allows you to use third-party network plugins to create custom network configurations for your containers. This can be useful if you want to use a particular networking protocol or if you need to connect your containers to a specific network infrastructure.                                                
 
 
 P4-Create Bridge Network between two containers and ping by NAME
@@ -99,7 +99,7 @@ services:
 ```
 
 #Thank You !
-~                                       
+                                       
 
 
 
