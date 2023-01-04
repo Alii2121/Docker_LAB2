@@ -54,7 +54,7 @@ ENTRYPOINT ["nginx","-g","daemon off;"]
 ## P3- Docker Networks
 
 
-###Bridge: This is the default network type. When you create a new container, it is automatically connected to a bridge network. The bridge network allows containers to communicate with each other, as well as with the host machine and external networks.
+### Bridge: This is the default network type. When you create a new container, it is automatically connected to a bridge network. The bridge network allows containers to communicate with each other, as well as with the host machine and external networks.
 
 ### Host: This network type removes the network isolation between the container and the host machine. Containers connected to the host network have the same network namespace as the host, and can directly access all network interfaces and resources on the host.
 
